@@ -37,7 +37,7 @@ export function normalizeUrl(url: string): string {
     }
 
     return normalized;
-  } catch (error) {
+  } catch {
     throw new Error(`Invalid URL: ${url}`);
   }
 }
@@ -112,7 +112,7 @@ export function validateUrl(url: string): { isValid: boolean; error?: string } {
     }
 
     return { isValid: true };
-  } catch (error) {
+  } catch {
     return { isValid: false, error: "Invalid URL format" };
   }
 }

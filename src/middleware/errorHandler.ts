@@ -1,11 +1,11 @@
-import type { NextFunction, Request, Response } from "express";
+import type { Request, Response } from "express";
 
 export interface ApiError extends Error {
   statusCode?: number;
   code?: string;
 }
 
-export function errorHandler(err: ApiError, req: Request, res: Response, next: NextFunction) {
+export function errorHandler(err: ApiError, req: Request, res: Response) {
   console.error("Error:", err);
 
   // Default to 500 server error

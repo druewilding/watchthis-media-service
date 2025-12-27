@@ -1,6 +1,5 @@
-import { type Media as PrismaMedia, type Prisma } from "@prisma/client";
-
 import { prisma } from "../app.js";
+import { type Media as PrismaMedia, type Prisma } from "../generated/prisma/client.js";
 
 export interface IMedia {
   id: string;
