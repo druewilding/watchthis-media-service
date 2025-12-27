@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.0.2](https://github.com/druewilding/watchthis-media-service/compare/v4.0.1...v4.0.2) (2025-12-27)
+
+
+### Chores
+
+* Change to Drue Wilding ([#39](https://github.com/druewilding/watchthis-media-service/issues/39)) ([321aa3f](https://github.com/druewilding/watchthis-media-service/commit/321aa3fb5325312e9f9548c755188e217536e2b5))
+* Update dependencies ([#41](https://github.com/druewilding/watchthis-media-service/issues/41)) ([7f23ee3](https://github.com/druewilding/watchthis-media-service/commit/7f23ee339779d4492a38453358ce22110a829bdd))
+
 ## [4.0.1](https://github.com/druewilding/watchthis-media-service/compare/v4.0.0...v4.0.1) (2025-10-20)
 
 
