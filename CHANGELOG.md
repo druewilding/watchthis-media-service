@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.0.3](https://github.com/druewilding/watchthis-media-service/compare/v4.0.2...v4.0.3) (2026-01-18)
+
+
+### Bug Fixes
+
+* Regenerate style.css ([#44](https://github.com/druewilding/watchthis-media-service/issues/44)) ([0971d10](https://github.com/druewilding/watchthis-media-service/commit/0971d104d270a0e418fbc7ab6cf17a73ee52de9f))
+* Skip publishing Docker image for forked PRs ([#45](https://github.com/druewilding/watchthis-media-service/issues/45)) ([6efad23](https://github.com/druewilding/watchthis-media-service/commit/6efad23e78df9c314cf596025cb250de11262076))
+
 ## [4.0.2](https://github.com/druewilding/watchthis-media-service/compare/v4.0.1...v4.0.2) (2025-12-27)
 
 
